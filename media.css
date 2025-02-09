@@ -1,0 +1,36 @@
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+/* Style headings */
+h1, h2 {
+    color: #333;
+}
+
+/* Style paragraphs */
+p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+}
+
+/* Make images responsive */
+picture img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px; /* Optional: Adds rounded corners */
+}
+
+/* Responsive Layout for Smaller Screens */
+@media (max-width: 768px) {
+    p {
+        padding: 0 20px;
+    }
+}
